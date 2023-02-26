@@ -1,0 +1,24 @@
+<!-- 00:00 - Introduction
+00:49 - How To Install TypeScript
+02:10 - Basic TypeScript Setup
+06:01 - Bundler TypeScript Setup
+10:30 - How To Build The Todo List App
+https://www.youtube.com/watch?v=jBmrduvKl5w&list=PLZlA0Gpn_vH_z2fqIg50_POJrUkJgBu7g -->
+
+Shortcut key to auto complete HTML structure
+"!" After typing, press the "TAB" key on the keyboard.
+!+tab click
+npm init -y (defult value set - y mean -yes)
+npm install --save-dev TypeScript (download the package)
+conform  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+
+npx tsc init (tsconfig.json file created)
+
+  "scripts": {
+    "start": "tsc --watch"
+  },
+
+  runt the file using this comment
+  npm start
